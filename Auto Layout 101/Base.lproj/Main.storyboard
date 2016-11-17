@@ -186,16 +186,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJp-Ac-lMn">
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Share"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5e4-rn-Wfy">
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Previous"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJo-GT-1uz">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="diS-Ah-JFJ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                             </button>
                             <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="At8-7l-Kin"/>
                         </subviews>
@@ -207,8 +207,8 @@
                             <constraint firstItem="5e4-rn-Wfy" firstAttribute="leading" secondItem="prI-aW-UXv" secondAttribute="leadingMargin" id="Lku-MW-y9t"/>
                             <constraint firstItem="duJ-3c-ALN" firstAttribute="top" secondItem="ZJo-GT-1uz" secondAttribute="bottom" constant="20" id="Mpe-VJ-kid"/>
                             <constraint firstItem="ZJo-GT-1uz" firstAttribute="top" secondItem="At8-7l-Kin" secondAttribute="bottom" constant="8" id="OP6-sr-oF0"/>
-                            <constraint firstItem="At8-7l-Kin" firstAttribute="top" secondItem="8Sc-yJ-j6V" secondAttribute="bottom" id="Ted-2s-rDL"/>
                             <constraint firstItem="duJ-3c-ALN" firstAttribute="top" secondItem="SJp-Ac-lMn" secondAttribute="bottom" constant="20" id="XGj-Lf-Ndw"/>
+                            <constraint firstItem="At8-7l-Kin" firstAttribute="top" secondItem="prI-aW-UXv" secondAttribute="topMargin" constant="20" id="Xu5-iv-C7l"/>
                             <constraint firstItem="At8-7l-Kin" firstAttribute="leading" secondItem="prI-aW-UXv" secondAttribute="leadingMargin" id="YT7-ny-Lk9"/>
                             <constraint firstItem="duJ-3c-ALN" firstAttribute="top" secondItem="5e4-rn-Wfy" secondAttribute="bottom" constant="20" id="fBU-lP-4Ia"/>
                         </constraints>
