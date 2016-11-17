@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9F5-6x-QAu">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -128,6 +129,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4F-Di-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-423.19999999999999" y="65.217391304347828"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LHX-Iw-euA">
+            <objects>
+                <viewController id="9F5-6x-QAu" customClass="ViewController" customModule="Auto_Layout_101" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vD-g6-Chg"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSd-Bb-hi1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EP3-dZ-glr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SL-7M-upG">
+                                <color key="backgroundColor" red="0.43529411764705883" green="0.16470588235294117" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frU-aL-5HJ">
+                                <color key="backgroundColor" red="0.84313725490196079" green="0.21568627450980393" blue="0.16078431372549021" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmj-pk-7d5">
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.43529411764705883" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="3SL-7M-upG" secondAttribute="bottom" id="BTB-20-5kN"/>
+                            <constraint firstAttribute="trailing" secondItem="tmj-pk-7d5" secondAttribute="trailing" id="FKW-lS-jEC"/>
+                            <constraint firstItem="frU-aL-5HJ" firstAttribute="top" secondItem="EP3-dZ-glr" secondAttribute="topMargin" id="Lds-WL-FDH"/>
+                            <constraint firstItem="tmj-pk-7d5" firstAttribute="top" secondItem="EP3-dZ-glr" secondAttribute="topMargin" id="P9s-aB-o8Q"/>
+                            <constraint firstItem="tmj-pk-7d5" firstAttribute="height" secondItem="EP3-dZ-glr" secondAttribute="height" multiplier="1/2" id="R3k-nX-mAq"/>
+                            <constraint firstAttribute="trailing" secondItem="3SL-7M-upG" secondAttribute="trailing" id="V7g-do-uIF"/>
+                            <constraint firstItem="3SL-7M-upG" firstAttribute="leading" secondItem="EP3-dZ-glr" secondAttribute="leading" id="Wqo-f8-4qq"/>
+                            <constraint firstItem="tmj-pk-7d5" firstAttribute="width" secondItem="EP3-dZ-glr" secondAttribute="width" multiplier="1/3" id="Yuy-xO-ibY"/>
+                            <constraint firstItem="frU-aL-5HJ" firstAttribute="height" secondItem="EP3-dZ-glr" secondAttribute="height" multiplier="1/2" id="dpW-qf-ISS"/>
+                            <constraint firstItem="frU-aL-5HJ" firstAttribute="leading" secondItem="EP3-dZ-glr" secondAttribute="leading" id="sof-PD-GRc"/>
+                            <constraint firstItem="frU-aL-5HJ" firstAttribute="width" secondItem="EP3-dZ-glr" secondAttribute="width" multiplier="2/3" id="tuH-v1-Sce"/>
+                            <constraint firstAttribute="height" secondItem="3SL-7M-upG" secondAttribute="height" multiplier="2" id="uY9-A3-DqN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZqP-mc-Xrl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1181.5999999999999" y="64.31784107946028"/>
         </scene>
     </scenes>
     <resources>
